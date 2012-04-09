@@ -1,0 +1,215 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/****************************************/
+/****************************************/
+/****************************************/
+body{
+	background: #efefef url('bg.jpg') repeat;
+	text-align: center;
+	margin-top: 100px;
+}
+h1{
+	font-family: Arial;
+	font-size: 70px;
+	font-weight: bold;
+	color: #202020;
+	text-shadow: 0 1px 1px #efefef;
+	margin-bottom: 10px;
+}
+h2{
+	width: 500px;
+	text-align: right;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+	color: #ababab;
+	text-shadow: 0 1px 1px #efefef;
+	margin: auto;
+	margin-top: 10px;
+}
+h2 a{
+	text-decoration: none;
+	color: #ababab;
+}
+h2 a:hover{
+	color: #404040;
+}
+/* list buttons **************/
+ul{
+	width: 600px;
+	height: 40px;
+	overflow: hidden;
+	margin: auto;
+	margin-top: 50px;
+}
+ul li{
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	float: left;
+}
+ul li a{
+	display: block;
+	width: 150px;
+	text-decoration: none;
+	padding: 7px 0 7px 0;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #efefef;
+	margin: auto;
+}
+/* red button ***************/
+ul li a.red{
+	background: #c10e0e;
+	background: -moz-linear-gradient(top,  #c10e0e 0%, #931414 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c10e0e), color-stop(100%,#931414));
+	background: -webkit-linear-gradient(top,  #c10e0e 0%,#931414 100%);
+	background: -o-linear-gradient(top,  #c10e0e 0%,#931414 100%);
+	background: -ms-linear-gradient(top,  #c10e0e 0%,#931414 100%);
+	background: linear-gradient(top,  #c10e0e 0%,#931414 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c10e0e', endColorstr='#931414',GradientType=0 );
+	border: 1px solid #7d0808;
+	border-bottom: 1px solid #9f2020;
+	border-radius: 2px;
+	box-shadow: 0 1px 1px #670707, 
+				0 2px 1px #670707,
+				0 3px 1px #670707,
+				0 4px 1px #670707,
+				0 5px 1px #ffffff,
+				inset 0 1px 0 #e56565;
+	text-shadow: 0 -1px 0 #7d0808;
+}
+ul li a.red:hover{
+	box-shadow: 0 1px 1px #670707, 
+				0 2px 1px #670707,
+				0 3px 1px #670707,
+				0 4px 1px #670707,
+				0 5px 1px #ffffff,
+				inset 0 1px 0 #e56565,
+				inset 0 2px 5px rgba(229,101,101,0.7);
+	text-shadow: 0 -1px 0 #7d0808, 0 0 10px #ffffff;
+}
+ul li a.red:active{
+	box-shadow: inset 0 1px 2px #670707, 0 1px 0 #ffffff; 
+	margin-top: 4px;
+	border-bottom: 1px solid #7d0808;
+}
+/* green button ***************/
+ul li a.green{
+	background: #55a90a;
+	background: -moz-linear-gradient(top,  #55a90a 0%, #478212 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#55a90a), color-stop(100%,#478212));
+	background: -webkit-linear-gradient(top,  #55a90a 0%,#478212 100%);
+	background: -o-linear-gradient(top,  #55a90a 0%,#478212 100%);
+	background: -ms-linear-gradient(top,  #55a90a 0%,#478212 100%);
+	background: linear-gradient(top,  #55a90a 0%,#478212 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#55a90a', endColorstr='#478212',GradientType=0 );
+	border: 1px solid #397206;
+	border-bottom: 1px solid #448807;
+	border-radius: 2px;
+	box-shadow: 0 1px 1px #2b5704, 
+				0 2px 1px #2b5704,
+				0 3px 1px #2b5704,
+				0 4px 1px #2b5704,
+				0 5px 1px #ffffff,
+				inset 0 1px 0 #89ca4e;
+	text-shadow: 0 -1px 0 #2b5704;
+}
+ul li a.green:hover{
+	box-shadow: 0 1px 1px #2b5704, 
+				0 2px 1px #2b5704,
+				0 3px 1px #2b5704,
+				0 4px 1px #2b5704,
+				0 5px 1px #ffffff,
+				inset 0 1px 0 #89ca4e,
+				inset 0 1px 3px rgba(137,202,78,0.7);
+	text-shadow: 0 -1px 0 #2b5704, 0 0 10px #ffffff;
+}
+ul li a.green:active{
+	box-shadow: inset 0 1px 2px #2b5704, 0 1px 0 #ffffff; 
+	margin-top: 4px;
+	border-bottom: 1px solid #397206;
+}
+/* blue button ***************/
+ul li a.blue{
+	background: #1863a9;
+	background: -moz-linear-gradient(top,  #1863a9 0%, #1b5182 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1863a9), color-stop(100%,#1b5182));
+	background: -webkit-linear-gradient(top,  #1863a9 0%,#1b5182 100%);
+	background: -o-linear-gradient(top,  #1863a9 0%,#1b5182 100%);
+	background: -ms-linear-gradient(top,  #1863a9 0%,#1b5182 100%);
+	background: linear-gradient(top,  #1863a9 0%,#1b5182 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1863a9', endColorstr='#1b5182',GradientType=0 );
+	border: 1px solid #083d6e;
+	border-bottom: 1px solid #305c84;
+	border-radius: 2px;
+	box-shadow: 0 1px 1px #103b63, 
+				0 2px 1px #103b63,
+				0 3px 1px #103b63,
+				0 4px 1px #103b63,
+				0 5px 1px #ffffff,
+				inset 0 1px 0 #5e95c9;
+	text-shadow: 0 -1px 0 #103b63;
+}
+ul li a.blue:hover{
+	box-shadow: 0 1px 1px #103b63, 
+				0 2px 1px #103b63,
+				0 3px 1px #103b63,
+				0 4px 1px #103b63,
+				0 5px 1px #ffffff,
+				inset 0 1px 0 #5e95c9,
+				inset 0 1px 3px rgba(94,149,201,0.7);
+	text-shadow: 0 -1px 0 #103b63, 0 0 10px #ffffff;
+}
+ul li a.blue:active{
+	box-shadow: inset 0 1px 2px #103b63, 0 1px 0 #ffffff; 
+	margin-top: 4px;
+	border-bottom: 1px solid #083d6e;
+}
