@@ -6,7 +6,7 @@ Running the shade a few pixels vertically, and using "inset" in "box-shadow" to 
 Demo
 ====
 
-![screenshot](http://9ls.com.ar/oscarweb/posts/css3-3d-buttons/css3_3d_buttons_470.jpg)
+![screenshot](http://oscarweb.com.ar/ejemplos/css3-3d-buttons/thumb.jpg)
 
 Don't forget to check the [live demo](http://oscarweb.com.ar/ejemplos/css3-3d-buttons/)
 
